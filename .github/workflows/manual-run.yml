@@ -3,7 +3,7 @@ name: manual run
 on:
   push:
   schedule:
-      - cron: '0 0 * * *'
+      - cron: '0 8 * * *'
 
 jobs:
   generate:
